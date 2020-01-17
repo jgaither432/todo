@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>ToDo</title>
+</head>
+<body> <!--  
+  <div class="box">
+    <div class="header text">
+      <h1>ADD ITEM</h1>
+    </div>
+    <div class="textarea"></div>
+    <div class="section1 text">
+      <h1>ToDo</h1>
+    </div>
+    <div class="section2"></div>
+    <div class="section3 text">
+      <h1>COMPLETED</h1>
+    </div>
+    <div class="section4"></div>
+  </div>
+   -->
+
+   <!--nikki's code below-->
+
+   <div class="container">
+    <p class="center">
+      <label for="new-task">Add Item</label><input id="new-task" type="text"><button class="abtn">Add</button> <hr>
+    </p>
+    
+    <h3 class="center">Todo</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      <li class="editMode"><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      
+    </ul>
+    
+    <h3 class="center">Completed</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+    </ul>
+  </div>
+    
+  <script src="js/scripts.js"></script>
+  
+</body>
+</html>

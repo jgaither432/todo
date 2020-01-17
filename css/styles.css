@@ -1,0 +1,211 @@
+.box {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  height: 800px;
+  width: 400px;
+  border: solid 5px orange;
+  border-radius: 5%;
+  box-shadow: 5px 10px 20px 10px orange inset;
+  box-shadow: 0px 5px 8px 10px #888888;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header{
+  height: 100px;
+  border: solid orange;
+  border-radius: 10%;
+}
+.textarea {
+  height: 125px;
+  border: solid orange;
+  border-radius: 10%;
+ 
+}
+.section1 {
+  height: 100px;
+  border: solid orange;
+  border-radius: 10%;
+}
+.section2 {
+  height: 150px;
+  border: solid orange;
+  border-radius: 10%;
+}
+.section3 {
+  height: 100px;
+  border: solid orange;
+  border-radius: 10%;
+}
+.section4 {
+  height: 190px;
+  border: solid orange;
+  border-radius: 10%;
+  border-style: solid hidden hidden hidden;
+}
+.text {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: navy;
+ box-shadow: 0px 5px 8px 1px navy;
+  border-style: groove;
+}
+
+
+/*
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+.container {
+  display: block;
+  width: 420px;
+  margin: 100px auto 0;
+  border: 5px solid palevioletred;
+  border-radius: 10px;
+  background-color: pink;
+}
+hr{
+    border-style: solid black;
+    border-width: 1px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+input, button {
+  outline: none;
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+/* Heading */
+/*
+h3,
+label[for='new-task'] {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+input[type="text"]:focus {
+  color:palevioletred;
+}
+
+.center{
+    text-align: center;
+    font-size: 28px;
+}
+h3{
+    color:palevioletred;
+}
+.abtn{
+    border: 1px soild white;
+    border-radius: 5px;
+    background-color: white;
+    color: pink;
+    font-size: 24px;
+}
+
+/* New Task */
+/*
+label[for='new-task'] {
+  display: block;
+  margin: 0 0 20px;
+  color: palevioletred;
+  font-size: 28px;
+}
+input#new-task {
+  margin: 5%;
+  width: 318px;
+}
+p > button:hover {
+  color: palevioletred;
+}
+
+/* Task list */
+/*
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
+}
+li >  input[type="text"] {
+  width: 226px;
+}
+
+li > .delete:hover {
+  color: darkred;
+}
+
+/* Completed */
+/*
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Edit Task */
+/*
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}
+.edit, .delete{
+    color: palevioletred;
+}
